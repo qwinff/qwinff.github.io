@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[QWinFF]]></title>
+  <subtitle><![CDATA[Convert your media files easily]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://qwinff.github.io/"/>
+  <updated>2015-08-27T01:37:13.002Z</updated>
+  <id>http://qwinff.github.io/</id>
+  
+  <author>
+    <name><![CDATA[The QWinFF Team]]></name>
+    
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.2.1 released]]></title>
+    <link href="http://qwinff.github.io/post/2015/08/22/release_021/"/>
+    <id>http://qwinff.github.io/post/2015/08/22/release_021/</id>
+    <published>2015-08-22T01:30:00.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.2.1 (2015-08-22)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-packaging">Packaging</span> Support building with Qt5 (still compatible with Qt4).</li>
+<li><span class="changelog-tag changelog-tag-i18n">I18n</span> Added Portuguese translation.</li>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> MediaPlayerWidget: scoll to seek and click to toggle play/pause.</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.2.0 released]]></title>
+    <link href="http://qwinff.github.io/post/2014/02/09/release_020/"/>
+    <id>http://qwinff.github.io/post/2014/02/09/release_020/</id>
+    <published>2014-02-09T15:32:00.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.2.0 (2014-02-09)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-feature">Feature</span> Use avconv if ffmpeg is not available (experimental)</li>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Added a video-cutting dialog with embedded mplayer.</li>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Use embedded mplayer to preview video-cutting.</li>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Recursively add files when a folder is dragged in.</li>
+<li><span class="changelog-tag changelog-tag-fixed">Fixed</span> Fixed default presets for AVI</li>
+<li><span class="changelog-tag changelog-tag-packaging">Packaging</span> Added application icon for OS/2 Warp.</li>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Switched to Tango icon theme.</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.1.9 released]]></title>
+    <link href="http://qwinff.github.io/post/2013/09/10/release_019/"/>
+    <id>http://qwinff.github.io/post/2013/09/10/release_019/</id>
+    <published>2013-09-10T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.9 (2013-09-10)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-feature">Feature</span> Output formats: asf, swf, aiff, flac, au, mp2</li>
+<li><span class="changelog-tag changelog-tag-feature">Feature</span> <span class="changelog-tag changelog-tag-ui">UI</span> Update checker.</li>
+<li><span class="changelog-tag changelog-tag-feature">Feature</span> <span class="changelog-tag changelog-tag-ui">UI</span> More output path options.</li>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Automatically start conversion after adding files (off by default)</li>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Minor UI improvements</li>
+<li><span class="changelog-tag changelog-tag-general">General</span>  Several program parameters can be set in constants.xml.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Can now set version-specific ffmpeg parameters in presets.xml.</li>
+<li><span class="changelog-tag changelog-tag-windows">Windows</span> Dialog buttons are now also translated.</li>
+<li><span class="changelog-tag changelog-tag-linux">Linux</span> User can now change ffmpeg and sox executable paths in the Options dialog.</li>
+<li><span class="changelog-tag changelog-tag-packaging">Packaging</span> Compatible with newer ffmpeg versions (“-sameq” doesn’t work since ffmpeg 1.2).</li>
+<li><span class="changelog-tag changelog-tag-packaging">Packaging</span> Support older Qt versions down to 4.4.3.</li>
+<li><span class="changelog-tag changelog-tag-packaging">Packaging</span> Added file “constants.xml”.</li>
+<li><span class="changelog-tag changelog-tag-packaging">Packaging</span> <span class="changelog-tag changelog-tag-windows">Windows</span> Place Qt translation files in “translations” folder</li>
+<li><span class="changelog-tag changelog-tag-packaging">Packaging</span> <span class="changelog-tag changelog-tag-windows">Windows</span> QWinFF now depends on QtNetwork4?.dll (for update checker).</li>
+<li><span class="changelog-tag changelog-tag-packaging">Packaging</span> <span class="changelog-tag changelog-tag-windows">Windows</span> merge “ffmpeg” and “sox” folder into “tools” folder</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.1.8 released]]></title>
+    <link href="http://qwinff.github.io/post/2013/02/13/release_018/"/>
+    <id>http://qwinff.github.io/post/2013/02/13/release_018/</id>
+    <published>2013-02-13T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.8<br>(2013-02-13)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Improved video/audio cutting interface.</li>
+<li><span class="changelog-tag changelog-tag-fixed">Fixed</span> Some bugs when working with newer ffmpeg versions.</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.1.7 released]]></title>
+    <link href="http://qwinff.github.io/post/2012/09/17/release_017/"/>
+    <id>http://qwinff.github.io/post/2012/09/17/release_017/</id>
+    <published>2012-09-17T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.7<br>(2012-09-17)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-feature">Feature</span> <span class="changelog-tag changelog-tag-ui">UI</span> Drag&amp;Drop reordering tasks</li>
+<li><span class="changelog-tag changelog-tag-fixed">Fixed</span> progress-displaying of wav input files. </li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.1.6 released]]></title>
+    <link href="http://qwinff.github.io/post/2012/08/26/release_016/"/>
+    <id>http://qwinff.github.io/post/2012/08/26/release_016/</id>
+    <published>2012-08-26T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.6<br>(2012-08-26)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-feature">Feature</span> Adjust video speed (requires sox to be installed).</li>
+<li><span class="changelog-tag changelog-tag-i18n">I18n</span> Czech translation.</li>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Rearranged toolbar actions.</li>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Many UI improvements.</li>
+<li><span class="changelog-tag changelog-tag-fixed">Fixed</span> Auto presets got messed up when being edited.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Removed “Auto bitrate” option</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.1.5 released]]></title>
+    <link href="http://qwinff.github.io/post/2012/08/17/release_015/"/>
+    <id>http://qwinff.github.io/post/2012/08/17/release_015/</id>
+    <published>2012-08-17T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.5<br>(2012-08-17)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-feature">Feature</span> Shutdown computer when all tasks are done.</li>
+<li><span class="changelog-tag changelog-tag-i18n">I18n</span> Italian translation.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Several ffmpeg presets that don’t give extra arguments.</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.1.4 released]]></title>
+    <link href="http://qwinff.github.io/post/2012/06/21/release_014/"/>
+    <id>http://qwinff.github.io/post/2012/06/21/release_014/</id>
+    <published>2012-06-21T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.4<br>(2012-06-21)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-ui">UI</span> Some minor GUI improvements.</li>
+<li><span class="changelog-tag changelog-tag-packaging">Packaging</span> Include desktop file and application icon in installation.</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.1.3 released]]></title>
+    <link href="http://qwinff.github.io/post/2012/02/12/release_013/"/>
+    <id>http://qwinff.github.io/post/2012/02/12/release_013/</id>
+    <published>2012-02-12T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.3</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-feature">Feature</span> Enable users to select the range of the media file to encode.</li>
+<li><span class="changelog-tag changelog-tag-fixed">Fixed</span> video encoding error on some systems due to ffmpeg multithread options.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Removed “-aq 60” option in OGG Vorbis to prevent inflating the output file.</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.1.2 released]]></title>
+    <link href="http://qwinff.github.io/post/2012/02/11/release_012/"/>
+    <id>http://qwinff.github.io/post/2012/02/11/release_012/</id>
+    <published>2012-02-11T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.2<br>(2012-02-11)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-fixed">Fixed</span> compilation error with older libnotify versions.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Use notify-send by default.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Made libnotify optional and disabled by default.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Explicit link with gtk+-2.0. (libnotify can be used with either gtk2 or gtk3)</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF 0.1.1 released]]></title>
+    <link href="http://qwinff.github.io/post/2012/02/07/release_011/"/>
+    <id>http://qwinff.github.io/post/2012/02/07/release_011/</id>
+    <published>2012-02-07T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.1<br>(2012-02-07)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-i18n">I18n</span> Added Japanese translation.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Use libnotify for desktop notification.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Separate preset file for each user.</li>
+<li><span class="changelog-tag changelog-tag-general">General</span> Save program settings and the user preset file in ~/.qwinff/</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[QWinFF initial release!]]></title>
+    <link href="http://qwinff.github.io/post/2011/11/05/release_010/"/>
+    <id>http://qwinff.github.io/post/2011/11/05/release_010/</id>
+    <published>2011-11-05T06:27:52.000Z</published>
+    <updated>2015-08-27T01:29:17.086Z</updated>
+    <content type="html"><![CDATA[<p>Version 0.1.0<br>(2011-11-05)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-fixed">Fixed</span> Disable the auto adjust bitrate option by default as it causes problems sometimes.</li>
+</ul>
+<p>(2011-11-03)</p>
+<ul>
+<li><span class="changelog-tag changelog-tag-general">General</span> First stable release.</li>
+</ul>
+]]></content>
+    
+    
+      <category term="changelog" scheme="http://qwinff.github.io/tags/changelog/"/>
+    
+  </entry>
+  
+</feed>

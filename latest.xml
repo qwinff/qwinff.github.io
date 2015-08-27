@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<QWinFFVersionInfo>
+<Name>0.2.1</Name>
+<VersionId>21</VersionId>
+<ReleaseDate>20150822</ReleaseDate>
+<ReleaseNotes type="text/html"><![CDATA[
+<p>Version 0.2.1 (2015-08-22)</p>
+<ul>
+<li> Support building with Qt5 (still compatible with Qt4).</li>
+<li> Added Portuguese translation.</li>
+<li> MediaPlayerWidget: scoll to seek and click to toggle play/pause.</li>
+</ul>
+
+]]></ReleaseNotes>
+<DownloadPage>http://qwinff.github.io/downloads.html</DownloadPage>
+<DownloadLinks>
+<WindowsInstaller>http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1-setup.exe/download</WindowsInstaller>
+<WindowsPortable>http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff-portable-0.2.1.exe/download</WindowsPortable>
+<Source>http://sourceforge.net/projects/qwinff/files/release/v0.2.1/qwinff_0.2.1.tar.bz2/download</Source>
+</DownloadLinks>
+</QWinFFVersionInfo>
